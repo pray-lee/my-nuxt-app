@@ -21,14 +21,15 @@ module.exports = {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: { color: '#FFFFFF' },
 
   /*
   ** Global CSS
   */
   css: [
+    'element-ui/lib/theme-chalk/reset.css',
     'element-ui/lib/theme-chalk/index.css',
-    'element-ui/lib/theme-chalk/index.css',
+    '@/assets/css/main.css'
   ],
 
   /*
@@ -69,6 +70,8 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }
+    },
+    // https://github.com/nuxt/nuxt.js/issues/3804
+    cache:false
   }
 }

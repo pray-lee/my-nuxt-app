@@ -1,22 +1,9 @@
-# mt-app
+# ASSETS
 
-> My awesome Nuxt.js project
+**This directory is not required, you can delete it if you don't want to use it.**
 
-## Build Setup
+This directory contains your un-compiled assets such as LESS, SASS, or JavaScript.
 
-``` bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn run dev
-
-# build for production and launch server
-$ yarn run build
-$ yarn start
-
-# generate static project
-$ yarn run generate
-```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/guide/assets#webpacked).
+更多资源Q
+891377154
